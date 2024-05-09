@@ -65,8 +65,20 @@ body {
 }
 
 .jumbo {
+    padding-top: 15px;
     width: 67%;
+    /*debug*/
     background-color: blueviolet;
+}
+
+/*main*/
+
+h3 {
+    margin: 0 17%;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    font-size: 25px;
+    font-weight: 900;
 }
 
 .col-3 {
@@ -83,7 +95,7 @@ body {
     /*debug*/
     background-color: yellow;
     border: solid 1px white;
-    height: 50px;
+    height: 30px;
 }
 
 .col-1 {
@@ -119,9 +131,24 @@ body {
 }
 
 /*buttons*/
-.button {}
+.main-button {
+    padding: 7px 10px;
+    text-align: center;
+    margin-right: 39%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    /*debug*/
+    background-color: white;
+
+}
 
 /*color*/
 .bg-gray {
     background-color: #BDDEF2;
+    
+}
+
+.limit {
+    max-height: 600px;
 }
