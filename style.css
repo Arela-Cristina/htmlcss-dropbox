@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: pink;
+}
+
+.nav-box {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.logo {
+    width: 32%;
+    height: 25px;
+}
+
+.nav {
+    display: inline-flex;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
