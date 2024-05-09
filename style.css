@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: pink;
+    font-family: "Open Sans", sans-serif;
 }
 
 .nav-box {
@@ -39,6 +42,10 @@ body {
 }
 
 .headline {
+    background-color: yellow;
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 40px;
     /*debug*/
     background-color: yellow;
 }
@@ -51,12 +58,70 @@ body {
 .col-right {
     display: flex;
     flex-direction: column;
-    line-height: 30px;
     background-color: aqua;
-    max-width: 25%;
+    max-width: 35%;
+    font-size: 13px;
+    line-height: 21px;
 }
 
 .jumbo {
-    width: 75%;
+    width: 67%;
     background-color: blueviolet;
+}
+
+.col-3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 17%;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.w-33 {
+    width: calc(100% / 3 - 35px);
+    /*debug*/
+    background-color: yellow;
+    border: solid 1px white;
+    height: 50px;
+}
+
+.col-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 17%;
+    flex-wrap: wrap;
+
+}
+
+.w-100 {
+    width: 100%;
+    /*debug*/
+    background-color: aquamarine;
+    border: solid 1px white;
+    height: 25px;
+}
+
+.col-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 17%;
+    flex-wrap: wrap;
+
+}
+
+.w-50 {
+    width: calc((100% / 2) - 35px);
+    /*debug*/
+    background-color: yellow;
+    border: solid 1px white;
+    height: 100px;
+}
+
+/*buttons*/
+.button {}
+
+/*color*/
+.bg-gray {
+    background-color: #BDDEF2;
 }
