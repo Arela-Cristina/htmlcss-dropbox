@@ -71,7 +71,7 @@ body {
     background-color: blueviolet;
 }
 
-/*main*/
+/*main structure*/
 
 h3 {
     margin: 0 17%;
@@ -95,7 +95,8 @@ h3 {
     /*debug*/
     background-color: yellow;
     border: solid 1px white;
-    height: 30px;
+    height: 500px;
+
 }
 
 .col-1 {
@@ -130,6 +131,39 @@ h3 {
     height: 100px;
 }
 
+.col-1 {
+    display: flex;
+    margin: 0 17%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.w-10 {
+    height: 349px;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 25px;
+    line-height: 30px;
+    /*debug*/
+    background-color: green;
+    border: solid 1px white;
+
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 15px;
+}
+
 /*buttons*/
 .main-button {
     padding: 7px 10px;
@@ -146,7 +180,7 @@ h3 {
 /*color*/
 .bg-gray {
     background-color: #BDDEF2;
-    
+
 }
 
 .limit {
