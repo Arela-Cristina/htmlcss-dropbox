@@ -6,6 +6,8 @@ body {
     box-sizing: border-box;
     background-color: pink;
     font-family: "Open Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
 .nav-box {
@@ -163,6 +165,8 @@ h3 {
     font-weight: bold;
     font-size: 15px;
 }
+
+
 
 /*buttons*/
 .main-button {
