@@ -6,8 +6,7 @@ body {
     box-sizing: border-box;
     background-color: pink;
     font-family: "Open Sans", sans-serif;
-    list-style: none;
-    text-decoration: none;
+
 }
 
 .nav-box {
@@ -94,10 +93,12 @@ h3 {
 
 .w-33 {
     width: calc(100% / 3 - 35px);
+    font-size: 13px;
+    list-style: none;
     /*debug*/
     background-color: yellow;
     border: solid 1px white;
-    height: 500px;
+    height: 1000px;
 
 }
 
@@ -115,6 +116,10 @@ h3 {
     background-color: aquamarine;
     border: solid 1px white;
     height: 25px;
+}
+
+.benefits {
+    margin-top: 20px;
 }
 
 .col-2 {
@@ -139,11 +144,13 @@ h3 {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 
 }
 
 .w-10 {
-    height: 349px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     width: 85%;
@@ -161,9 +168,20 @@ h3 {
     font-size: 20px;
 }
 
-.price {
+.remark {
     font-weight: bold;
     font-size: 15px;
+}
+
+.stripe {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.fa-ul {
+    list-style-type: none;
+    margin-left: var(--fa-li-margin, 1.5em);
+    padding-left: 0;
 }
 
 
@@ -179,6 +197,15 @@ h3 {
     /*debug*/
     background-color: white;
 
+}
+
+.plan-button {
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 3px 35px;
 }
 
 /*color*/
