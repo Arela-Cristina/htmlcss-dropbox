@@ -132,6 +132,7 @@ h3 {
     justify-content: space-between;
     margin: 0 17%;
     flex-wrap: wrap;
+    margin-top: 100px;
 
 }
 
@@ -226,7 +227,36 @@ h3 {
     font-size: 13px
 }
 
+.w-63 {
+    height: 460px;
+    width: 63%;
+    /*debug*/
+    background-color: yellow;
+    border: solid 1px white;
+}
 
+.w-37 {
+    height: 273px;
+    width: 36%;
+    /*debug*/
+    background-color: yellow;
+    border: solid 1px white;
+}
+
+.partner-img {
+    width: 94%;
+}
+
+.paragraph-size {
+    font-size: 13px;
+}
+
+.col-operazioni {
+    height: 300px;
+    width: calc(100% / 3 - 35px);
+    /*debug*/
+    background-color: yellow;
+}
 
 /*buttons*/
 .main-button {
@@ -235,7 +265,6 @@ h3 {
     margin-right: 39%;
     margin-bottom: 20px;
     margin-top: 20px;
-
     /*debug*/
     background-color: white;
 
@@ -256,6 +285,16 @@ h3 {
     background-color: white;
     font-size: 13px;
     padding: 7px 35px;
+}
+
+.partner-button {
+    background-color: white;
+    padding: 9px 19px;
+    font-size: 13px;
+}
+
+p.padding-botton {
+    padding-bottom: 25px;
 }
 
 /*color*/
