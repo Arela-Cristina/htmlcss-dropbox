@@ -288,6 +288,102 @@ p.margin-top {
 
 }
 
+.bord-designit {
+    background-color: #a2d39b;
+    margin: 9px 8px;
+}
+
+.sponsor-box {
+    width: 100%;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-sponsor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 33.3%;
+    height: 390px;
+    /*debug*/
+    background-color: yellow;
+}
+
+.sponsor-left {
+    background-color: #d1e9cd;
+    height: 195px;
+    width: 222.8px;
+}
+
+.sponsor-middle {
+    width: 100%;
+    background-color: #f5f5f5;
+    margin: 20px 20px 20px 20px;
+}
+
+.designit-middle {
+    width: 45%;
+    padding: 20px 0px;
+}
+
+.designit {
+    width: 45%;
+    padding: 72px 60px;
+}
+
+.paragraph-margin {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.arizona {
+    width: 50%;
+    padding: 55px 58px;
+    background-color: #61082b;
+}
+
+.florida {
+    width: 60%;
+    padding: 85px 46px;
+    background-color: #0093ce;
+
+}
+
+.topps {
+    width: 55%;
+    background-color: #ff1c1c;
+    padding: 69.5px 52.5px;
+}
+
+.bycicle {
+    width: 50%;
+    background-color: #d5001f;
+    padding: 79px 56px;
+}
+
+.hearts {
+    width: 50%;
+    padding: 92px 58px;
+    background-color: #b4d0e7;
+}
+
+.lonely {
+    background-color: #0d2481;
+    padding: 67px 50px;
+    width: 55%;
+}
+
+.clear {
+    background-color: #ffd830;
+    width: 49%;
+    padding: 61px 59px;
+}
+
+.span-font-size {
+    font-size: 13px;
+}
+
+
 /*buttons*/
 .main-button {
     padding: 7px 10px;
