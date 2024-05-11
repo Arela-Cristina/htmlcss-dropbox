@@ -382,6 +382,29 @@ p.margin-top {
     font-size: 13px;
 }
 
+.title-box-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    gap: 30px;
+    background-color: #b4d0e7;
+}
+
+.box-2-button {
+    width: 35%;
+    font-size: 13px;
+    background-color: white;
+    text-align: center;
+    padding: 8px 0;
+    margin-bottom: 46px;
+}
+
+section.faq {
+
+    margin: 0 20%;
+}
 
 /*buttons*/
 .main-button {
@@ -426,6 +449,10 @@ p.padding-botton {
 .bg-gray {
     background-color: #BDDEF2;
 
+}
+
+.bg-b4d0e7 {
+    background-color: #b4d0e7;
 }
 
 .limit {
