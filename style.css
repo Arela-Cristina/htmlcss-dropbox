@@ -401,9 +401,32 @@ p.margin-top {
     margin-bottom: 46px;
 }
 
-section.faq {
-
+div.faq {
     margin: 0 20%;
+    padding-bottom: 2%;
+}
+
+div.padding-top-bottom {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.fa-solid.padding-right {
+    padding-right: 20px;
+}
+
+.faq-question.border-bottom {
+    border-bottom: solid 1px;
 }
 
 /*buttons*/
