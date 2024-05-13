@@ -454,7 +454,7 @@ footer {
 }
 
 .footer-list {
-    font-size: 13px;
+    font-size: 11px;
     line-height: 30px;
 }
 
@@ -463,6 +463,11 @@ ul.list-style {
 }
 
 /*buttons*/
+
+a.inizia-button {
+    padding: 8px 16px;
+}
+
 .main-button {
     padding: 7px 10px;
     text-align: center;
@@ -495,6 +500,7 @@ ul.list-style {
     background-color: white;
     padding: 9px 19px;
     font-size: 13px;
+    border: solid 1px black;
 }
 
 p.padding-botton {
@@ -502,12 +508,18 @@ p.padding-botton {
 }
 
 .language {
-    margin: 0 17%;
+    margin: 0 20%;
     display: flex;
     align-items: center;
     gap: 8px;
     font-size: 13px;
     padding-bottom: 4%;
+}
+
+/*links*/
+a.none-style {
+    text-decoration: none;
+
 }
 
 /*color*/
@@ -522,4 +534,16 @@ p.padding-botton {
 
 .limit {
     max-height: 600px;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.bgblue {
+    background-color: #0061ff;
 }
