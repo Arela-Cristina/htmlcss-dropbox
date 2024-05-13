@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: pink;
     font-family: "Open Sans", sans-serif;
 
 }
@@ -43,23 +42,19 @@ body {
 }
 
 .headline {
-    background-color: yellow;
     font-size: 55px;
     font-weight: 800;
     margin-bottom: 40px;
-    /*debug*/
-    background-color: yellow;
 }
 
 .box-content {
     display: flex;
-    /*debug*/
+    
 }
 
 .col-right {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
     max-width: 35%;
     font-size: 13px;
     line-height: 21px;
@@ -68,8 +63,6 @@ body {
 .jumbo {
     padding-top: 15px;
     width: 67%;
-    /*debug*/
-    background-color: blueviolet;
 }
 
 /*main structure*/
@@ -95,9 +88,7 @@ h3 {
     width: calc(100% / 3 - 35px);
     font-size: 13px;
     list-style: none;
-    /*debug*/
-    background-color: yellow;
-    border: solid 1px white;
+    border: solid 1px #ececed;
     height: 1000px;
 
 }
@@ -118,9 +109,7 @@ h3 {
     align-items: center;
     gap: 8px;
     font-size: 13px;
-    /*debug*/
-    background-color: aquamarine;
-    border: solid 1px white;
+    border: solid 1px #ececed;
 }
 
 .benefits {
@@ -138,15 +127,13 @@ h3 {
 
 .w-50 {
     width: calc((100% / 2) - 35px);
-    /*debug*/
-    background-color: yellow;
-    border: solid 1px white;
-    height: 100px;
+
 }
 
 .col-1 {
     display: flex;
-    margin: 0 17%;
+    border-bottom: solid 1px #ececed;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -163,17 +150,14 @@ h3 {
     margin: 0 auto;
     padding-top: 25px;
     line-height: 30px;
-    /*debug*/
-    background-color: green;
-    border: solid 1px white;
 
 }
 
 .w-75 {
     width: 75%;
-    background-color: yellow;
-    border: solid 1px white;
     height: 150px;
+    border-left: solid 1px #ececed;
+    border-bottom: solid 1px #ececed;
 }
 
 .col-team {
@@ -184,12 +168,11 @@ h3 {
 }
 
 .w-24 {
-    width: 24.5%;
+    width: calc(25% - 2px);
     height: 150px;
     display: flex;
-    /*debug*/
-    background-color: yellow;
-    border: solid 1px white;
+    border-bottom: solid 1px #ececed;
+    border-right: solid 1px #ececed;
 }
 
 .subtitle {
@@ -230,17 +213,11 @@ h3 {
 .w-63 {
     height: 460px;
     width: 63%;
-    /*debug*/
-    background-color: yellow;
-    border: solid 1px white;
 }
 
 .w-37 {
     height: 273px;
     width: 36%;
-    /*debug*/
-    background-color: yellow;
-    border: solid 1px white;
 }
 
 .partner-img {
@@ -254,8 +231,6 @@ h3 {
 .col-operazioni {
     height: 420px;
     width: calc(100% / 3 - 35px);
-    /*debug*/
-    background-color: yellow;
 }
 
 .operazioni-img-w {
@@ -304,8 +279,7 @@ p.margin-top {
     flex-wrap: wrap;
     width: 33.3%;
     height: 390px;
-    /*debug*/
-    background-color: yellow;
+    background-color: #f5f5f5;
 }
 
 .sponsor-left {
@@ -393,12 +367,16 @@ p.margin-top {
 }
 
 .box-2-button {
-    width: 35%;
+    width: 30%;
     font-size: 13px;
     background-color: white;
     text-align: center;
-    padding: 8px 0;
+    padding: 7px 0;
     margin-bottom: 46px;
+}
+
+div.width {
+    width: 56%;
 }
 
 div.faq {
@@ -474,26 +452,27 @@ a.inizia-button {
     margin-right: 39%;
     margin-bottom: 20px;
     margin-top: 20px;
-    /*debug*/
-    background-color: white;
 
 }
 
 .plan-button {
-    background-color: white;
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 10px;
-    padding: 3px 35px;
+    padding: 0px 34px;
+}
+
+a.padding {
+    padding: 0 80px;
 }
 
 .enterprise-button {
     margin-top: 18px;
     margin-bottom: 97px;
-    background-color: white;
     font-size: 13px;
-    padding: 7px 35px;
+    padding: 7px 22px;
+    margin-right: 3px;
 }
 
 .partner-button {
@@ -546,6 +525,10 @@ a.none-style {
 
 .bgblue {
     background-color: #0061ff;
+}
+
+.wine {
+    color: #6a1834;
 }
 
 /*radio-box-custom*/
