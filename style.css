@@ -547,3 +547,63 @@ a.none-style {
 .bgblue {
     background-color: #0061ff;
 }
+
+/*radio-box-custom*/
+.imput-box {
+    display: flex;
+    gap: 25px;
+    font-size: 13px;
+    margin: 0px 17%;
+    margin-bottom: 17px;
+}
+
+.radio-box:first-of-type {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+label {
+    margin-right: 15px;
+    line-height: 32px;
+}
+
+input {
+    appearance: none;
+
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+
+    position: relative;
+    top: 4px;
+}
+
+input:checked {
+    border: 3.5px solid #0061ff;
+}
+
+button,
+legend {
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 10px;
+    border-radius: 0;
+    border: 0;
+    font-size: 14px;
+}
+
+button:hover,
+button:focus {
+    color: #999;
+}
+
+button:active {
+    background-color: white;
+    color: #0061ff;
+    outline: 1px solid #0061ff;
+}
